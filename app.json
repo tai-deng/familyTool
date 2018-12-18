@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/count/count"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爱的时光",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ff5800",
+    "color": "#5e5e5e",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "love",
+        "iconPath": "/pages/imgs/love.png",
+        "selectedIconPath": "/pages/imgs/love.png"
+      },
+      {
+        "pagePath": "pages/count/count",
+        "text": "tool",
+        "iconPath": "/pages/imgs/count.png",
+        "selectedIconPath": "/pages/imgs/count.png"
+      }
+    ]
+  }
+}

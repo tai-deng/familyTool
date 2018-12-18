@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box" wx:for="{{pic}}" wx:key="{{item}}">
+    <view class="pic">
+      <image src="{{item}}"mode="widthFix" catchtap="onPreview" data-i="{{index}}"/>
+      <!--<image class="" src=""  lazy-load="false" binderror="" bindload="" />-->
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+/**index.wxss**/
+.container {
+  -webkit-column-width: 404rpx;
+  -moz-column-width: 404rpx;
+  column-width: 404rpx;
+}
+.box {
+  padding: 15rpx 7rpx 0 7rpx;
+  float: left;
+}
+.pic {
+  border: 1px solid #ddd;
+}
+.pic image {
+  width: 330rpx;
+  padding: 10rpx;
+}

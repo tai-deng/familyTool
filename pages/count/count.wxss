@@ -1,0 +1,83 @@
+/* pages/count/count.wxss */
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffcf9;
+}
+.line {
+    font-size: 26rpx;
+    color: #9a9a9a;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20rpx;
+}
+.line-l {
+    width: 200rpx;
+    line-height: 60rpx;
+    text-align: center;
+}
+.line-r{
+    flex: 1;
+    position: relative;
+}
+.linr-r input {
+    flex: 1;
+}
+.picker {
+    padding: 0 20rpx;
+    line-height: 60rpx;
+    background-color: red;
+    color: #fff;
+}
+.options-item {
+    width: 100%;
+    line-height: 60rpx;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+}
+.add {
+    font-size: 26rpx;
+    color: #fff;
+    font-weight: 700;
+    width: 100rpx;
+    height: 60rpx;
+    background-color: red;
+}
+.hand {
+    width: 100rpx;
+    height: 60rpx;
+}
+.minus {
+    font-size: 26rpx;
+    color: #fff;
+    font-weight: 700;
+    width: 100rpx;
+    height: 60rpx;
+    background-color: green;
+}
+.details {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 33rpx;
+}
+.btn-area {
+    z-index: 2;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 20rpx;
+    padding: 20rpx;
+}
+.state {
+    padding: 0 10rpx;
+    height: 400rpx;
+    overflow: scroll;
+}
+.tip{
+    text-indent: 2em;
+}
+button {
+    background-color: green;
+    border-radius: 30rpx;
+    color: #fff;
+}
